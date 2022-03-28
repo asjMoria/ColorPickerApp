@@ -1,4 +1,6 @@
 import java.awt.Color;
+import java.awt.event.MouseEvent;
+
 import wheels.users.ConversationBubble;
 import wheels.users.Rectangle;
 
@@ -24,6 +26,7 @@ public class ColorSquare extends Rectangle
 	{
 		this.setColor(new Color(s1.getColorIntensity(), s2.getColorIntensity(), s3.getColorIntensity()));
 		this.bubble.setText(this.colorString());
+		this.bubble.setFrameColor(this.getColor());
 	}
 	
 	public String colorString()
