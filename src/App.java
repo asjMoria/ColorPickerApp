@@ -23,7 +23,7 @@ public class App extends Frame
 		bubble = new ConversationBubble("");
 		bubble.setLocation(400, 50);
 		bubble.setTail(410, 200);
-		bubble.setFrameThickness(4);
+		bubble.setFrameThickness(3);
 		cs = new ColorSquare(Color.BLACK, 50, 30, 255, 255, slider1, slider2, slider3, bubble);
 		slider1.setColorSquare(cs);
 		slider2.setColorSquare(cs);
